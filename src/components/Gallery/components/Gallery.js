@@ -31,7 +31,7 @@ const Gallery = ({ images = DEFAULT_IMAGES }) => {
                 position={obj.position}
                 toggleLightbox={obj.toggleLightbox}
                 position={i}
-                toggleLightbox={toggleLightbox}
+                // toggleLightbox={toggleLightbox}
                 url={obj.url}
               />
             )

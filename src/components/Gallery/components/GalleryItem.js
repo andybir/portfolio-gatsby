@@ -28,7 +28,7 @@ const GalleryItem = ({
         rel="noopener noreferrer"
         target="_blank"
       >
-        <img src={thumbnail} />
+        <img src={thumbnail} alt='' />
       </a>
 
       <h3>{caption}</h3>
