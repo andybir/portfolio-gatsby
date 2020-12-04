@@ -75,7 +75,7 @@ const HomeIndex = () => {
             <div className="8u 12u$(small)">
               <form
                 method="post"
-                action="#"
+                // action="#"
                 name="contact"
                 data-netlify="true"
               >
