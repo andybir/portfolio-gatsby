@@ -77,7 +77,6 @@ const HomeIndex = () => {
                 method="post"
                 action="#"
                 name="contact"
-                netlify
                 data-netlify="true"
               >
                 <div className="row uniform 50%">
@@ -108,7 +107,7 @@ const HomeIndex = () => {
                 </div>
                 <ul className="actions" style={{ marginTop: 30 }}>
                   <li>
-                    <input type="submit" value="Send Message" />
+                    <input className='button' type="submit" value="Send Message" />
                   </li>
                 </ul>
               </form>

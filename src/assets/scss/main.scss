@@ -56,7 +56,7 @@
 		}
 	}
 
-	body, input, select, textarea {
+	body, input, select, textarea, button {
 		color: _palette(fg);
 		font-family: _font(family);
 		font-size: 16pt;
@@ -1186,7 +1186,7 @@
 
 		/* Basic */
 
-			body, input, select, textarea {
+			body, input, select, textarea, button {
 				font-size: 12pt;
 			}
 
