@@ -16,7 +16,7 @@ const HomeIndex = () => {
       </Helmet>
 
       <div id="main">
-      <section id="two">
+        <section id="two">
           <h2>Projects</h2>
 
           <Gallery />
@@ -65,8 +65,6 @@ const HomeIndex = () => {
           </ul>
         </section>
 
-        
-
         <section id="three">
           <h2>Get In Touch</h2>
           <p>
@@ -75,7 +73,13 @@ const HomeIndex = () => {
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
-              <form method="post" action="#">
+              <form
+                method="post"
+                action="#"
+                name="contact"
+                netlify
+                data-netlify="true"
+              >
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
@@ -119,7 +123,7 @@ const HomeIndex = () => {
                   <br />
                   United States
                 </li>
-                
+
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
