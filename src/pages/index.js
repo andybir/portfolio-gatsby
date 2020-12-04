@@ -16,6 +16,19 @@ const HomeIndex = () => {
       </Helmet>
 
       <div id="main">
+      <section id="two">
+          <h2>Projects</h2>
+
+          <Gallery />
+
+          {/* <ul className="actions">
+            <li>
+              <a href="#" className="button">
+                Full Portfolio
+              </a>
+            </li>
+          </ul> */}
+        </section>
         <section id="one">
           <header className="major">
             <h2>
@@ -25,12 +38,23 @@ const HomeIndex = () => {
             </h2>
           </header>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            I am a full stack software developer with experience in many areas
+            including React, Django, Node, Express and Postgres. Because of my
+            positive attitude and adaptability, I excel at working in a team and
+            empower my colleagues by amplifying their strengths. I also
+            prioritize the big picture to complete projects on time while still
+            meeting deliverables.
+            <br />
+            <br />
+            I co-founded the childrens' clothing brand Birdie Lou with my wife
+            and am currently the co-owner and web developer.
+            <br />
+            <br />
+            Previously I worked seven years of sales experience which allows me
+            to convey technical details into more easily digestible concepts.
+            <br />
+            <br />I live in Brooklyn, NY with my wife Laura, my daughter Birdie
+            and my standard poodle Greta.
           </p>
           <ul className="actions">
             <li>
@@ -41,26 +65,13 @@ const HomeIndex = () => {
           </ul>
         </section>
 
-        <section id="two">
-          <h2>Recent Work</h2>
-
-          <Gallery />
-
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Full Portfolio
-              </a>
-            </li>
-          </ul>
-        </section>
+        
 
         <section id="three">
           <h2>Get In Touch</h2>
           <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
+            Please feel free to reach out with any questions about me or my
+            work.
           </p>
           <div className="row">
             <div className="8u 12u$(small)">
@@ -104,23 +115,22 @@ const HomeIndex = () => {
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
-                  1234 Somewhere Rd.
-                  <br />
-                  Nashville, TN 00000
+                  Brooklyn, NY
                   <br />
                   United States
                 </li>
-                <li>
-                  <h3 className="icon fa-mobile">
-                    <span className="label">Phone</span>
-                  </h3>
-                  000-000-0000
-                </li>
+                
                 <li>
                   <h3 className="icon fa-envelope-o">
                     <span className="label">Email</span>
                   </h3>
-                  <a href="#">hello@untitled.tld</a>
+                  <a
+                    href="mailto:andy.birosak@gmail.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    abirosak@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>
