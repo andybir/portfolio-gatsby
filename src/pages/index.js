@@ -115,7 +115,7 @@ const HomeIndex = () => {
               </form>
             </div>
             <div className="8u 12u$(small)">
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="netlify-contact" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>
