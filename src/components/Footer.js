@@ -5,12 +5,22 @@ const Footer = () => (
     <div className="inner">
       <ul className="icons">
         <li>
-          <a href="https://twitter.com/abirosak" className="icon fa-twitter">
+          <a
+            href="https://instagram.com/andybirosak"
+            className="icon fa-instagram"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <span className="label">Twitter</span>
           </a>
         </li>
         <li>
-          <a href="https://github.com/andybir" className="icon fa-github">
+          <a
+            href="https://github.com/andybir"
+            className="icon fa-github"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <span className="label">Github</span>
           </a>
         </li>
@@ -18,6 +28,8 @@ const Footer = () => (
           <a
             href="https://www.linkedin.com/in/andrewbirosak/"
             className="icon fa-linkedin"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             <span className="label">Dribbble</span>
           </a>

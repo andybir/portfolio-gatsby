@@ -5,8 +5,8 @@ import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Andy Birosak'
+  const siteDescription = 'Portfolio'
 
   return (
     <Layout>
@@ -17,8 +17,9 @@ const HomeIndex = () => {
 
       <div id="main">
         <section id="two">
+          <header className='major'>
           <h2>Projects</h2>
-
+          </header>
           <Gallery />
 
           {/* <ul className="actions">
@@ -30,26 +31,24 @@ const HomeIndex = () => {
           </ul> */}
         </section>
         <section id="one">
-          <header className="major">
-            {/* <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
-            </h2> */}
-          </header>
+            <h2>
+              About Me
+              {/* <br />
+              magna sed accumsan arcu neque. */}
+            </h2>
           <p>
-            I am a full stack software developer and have built sites with React,
-            Django, Node, Express and Shopify. I prioritize the big
-            picture to complete projects on time while still meeting
-            deliverables.
+            I am a full stack software developer with experience in
+            React, Django, Node, Express and Shopify. I have a passion for
+            building ecommerce sites and apps that inform people.
             <br />
             <br />
             I co-founded the childrens' clothing brand Birdie Lou with my wife
             and am currently the co-owner and web developer.
             <br />
             <br />
-            Previously I worked seven years of sales experience which allows me
-            to convey technical details into more easily digestible concepts.
+            Previously I was an ecommerce sales executive for seven years
+            which allowed me to bridge the gap between business and technical teams to
+            in order to solve client problems.
             <br />
             <br />I live in Brooklyn, NY with my wife Laura, my daughter Birdie
             and my standard poodle Greta.
@@ -77,7 +76,7 @@ const HomeIndex = () => {
                 name="contact"
                 data-netlify="true"
               >
-                <input type='hidden' name='form-name' value='contact' />
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
                     <input
@@ -115,17 +114,17 @@ const HomeIndex = () => {
                 </ul>
               </form>
             </div>
-            
+
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">
-                <li>
+                {/* <li>
                   <h3 className="icon fa-home">
                     <span className="label">Address</span>
                   </h3>
                   Brooklyn, NY
                   <br />
                   United States
-                </li>
+                </li> */}
 
                 <li>
                   <h3 className="icon fa-envelope-o">

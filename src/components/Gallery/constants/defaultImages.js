@@ -26,7 +26,7 @@ export const DEFAULT_IMAGES = [
       source: full02,
       thumbnail: thumb02,
       caption: 'Museum Quiz',
-      description: 'Explore antiquities & artefacts from ancient civilizations.',
+      description: 'Explore antiquities & artifacts from ancient civilizations.',
       url: 'http://museum-quiz.surge.sh',
 
     },
@@ -44,7 +44,7 @@ export const DEFAULT_IMAGES = [
       source: full04,
       thumbnail: thumb04,
       caption: 'Parent Helper',
-      description: 'A forum for parents to get advice in various topics.',
+      description: 'A forum for parents to get advice on various topics.',
       url: 'https://parent-helper-63190.herokuapp.com/account',
 
     }
