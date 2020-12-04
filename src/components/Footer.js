@@ -33,12 +33,12 @@ const Footer = () => (
           </a>
         </li>
       </ul>
-      <ul className="copyright">
+      {/* <ul className="copyright">
         <li>&copy; Gatsby Starter Strata</li>
         <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   </div>
 )

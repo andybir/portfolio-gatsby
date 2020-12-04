@@ -31,19 +31,17 @@ const HomeIndex = () => {
         </section>
         <section id="one">
           <header className="major">
-            <h2>
+            {/* <h2>
               Ipsum lorem dolor aliquam ante commodo
               <br />
               magna sed accumsan arcu neque.
-            </h2>
+            </h2> */}
           </header>
           <p>
-            I am a full stack software developer with experience in many areas
-            including React, Django, Node, Express and Postgres. Because of my
-            positive attitude and adaptability, I excel at working in a team and
-            empower my colleagues by amplifying their strengths. I also
-            prioritize the big picture to complete projects on time while still
-            meeting deliverables.
+            I am a full stack software developer and have built sites with React,
+            Django, Node, Express and Shopify. I prioritize the big
+            picture to complete projects on time while still meeting
+            deliverables.
             <br />
             <br />
             I co-founded the childrens' clothing brand Birdie Lou with my wife
@@ -56,13 +54,13 @@ const HomeIndex = () => {
             <br />I live in Brooklyn, NY with my wife Laura, my daughter Birdie
             and my standard poodle Greta.
           </p>
-          <ul className="actions">
+          {/* <ul className="actions">
             <li>
               <a href="#" className="button">
                 Learn More
               </a>
             </li>
-          </ul>
+          </ul> */}
         </section>
 
         <section id="three">
@@ -107,10 +105,36 @@ const HomeIndex = () => {
                 </div>
                 <ul className="actions" style={{ marginTop: 30 }}>
                   <li>
-                    <input className='button' type="submit" value="Send Message" />
+                    <input
+                      className="button"
+                      type="submit"
+                      value="Send Message"
+                    />
                   </li>
                 </ul>
               </form>
+            </div>
+            <div className="8u 12u$(small)">
+            <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
             </div>
             <div className="4u 12u$(small)">
               <ul className="labeled-icons">

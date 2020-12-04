@@ -14,7 +14,7 @@ const Header = () => (
       </h1>
       <h1>
         Welcome to my portfolio.
-        <br />
+        
         {/* <a href='https://reactjs.org'> React</a>, <a href='https://gatsbyjs.com'>Gatsby</a> and <a href='https://mongodb.com'>MongoDB.</a> */}
       </h1>
     </div>
