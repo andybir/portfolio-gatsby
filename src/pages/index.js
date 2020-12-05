@@ -46,9 +46,9 @@ const HomeIndex = () => {
             and am currently the co-owner and web developer.
             <br />
             <br />
-            Previously I was an ecommerce sales executive for seven years during
-            which I bridged the gap between business and technical teams in
-            order to solve client problems.
+            Previously I was an ecommerce sales executive for seven years.
+            During that time I bridged the gap between business and technical
+            teams in order to solve client problems.
             <br />
             <br />I live in Brooklyn, NY with my wife Laura, my daughter Birdie
             and my standard poodle Greta.
