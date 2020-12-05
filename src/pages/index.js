@@ -17,8 +17,8 @@ const HomeIndex = () => {
 
       <div id="main">
         <section id="two">
-          <header className='major'>
-          <h2>Projects</h2>
+          <header className="major">
+            <h2>Projects</h2>
           </header>
           <Gallery />
 
@@ -31,24 +31,24 @@ const HomeIndex = () => {
           </ul> */}
         </section>
         <section id="one">
-            <h2>
-              About Me
-              {/* <br />
+          <h2>
+            About Me
+            {/* <br />
               magna sed accumsan arcu neque. */}
-            </h2>
+          </h2>
           <p>
-            I am a full stack software developer with experience in
-            React, Django, Node, Express and Shopify. I have a passion for
-            building ecommerce sites and apps that inform people.
+            I am a full stack software developer with experience in React,
+            Django, Node, Express and Shopify. I have a passion for building
+            ecommerce sites and apps that inform people.
             <br />
             <br />
             I co-founded the childrens' clothing brand Birdie Lou with my wife
             and am currently the co-owner and web developer.
             <br />
             <br />
-            Previously I was an ecommerce sales executive for seven years
-            which allowed me to bridge the gap between business and technical teams to
-            in order to solve client problems.
+            Previously I was an ecommerce sales executive for seven years during
+            which I bridged the gap between business and technical teams in
+            order to solve client problems.
             <br />
             <br />I live in Brooklyn, NY with my wife Laura, my daughter Birdie
             and my standard poodle Greta.
