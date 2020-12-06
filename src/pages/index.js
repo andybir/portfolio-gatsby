@@ -47,11 +47,12 @@ const HomeIndex = () => {
             <br />
             <br />
             Previously I was an ecommerce sales executive for seven years.
-            During that time I bridged the gap between business and technical
-            teams in order to solve client problems.
+            During that time I focused on bridging the gap between business and
+            technical teams in order to solve client problems.
             <br />
             <br />I live in Brooklyn, NY with my wife Laura, my daughter Birdie
-            and my standard poodle Greta.
+            and my standard poodle Greta. I am also a proud Boston University
+            alum.
           </p>
           {/* <ul className="actions">
             <li>
