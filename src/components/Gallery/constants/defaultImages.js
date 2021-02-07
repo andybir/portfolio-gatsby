@@ -10,7 +10,7 @@ export const DEFAULT_IMAGES = [
     thumbnail: thumb05,
     caption: 'Andyshop',
     description: 'An ecommerce website',
-    url: 'shop.andybirosak.com/',
+    url: 'http://shop.andybirosak.com/',
   },
   {
     id: '2',
