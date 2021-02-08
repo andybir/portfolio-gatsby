@@ -6,18 +6,18 @@ import thumb05 from '../../../assets/images/thumbs/andyshop-thumb.png'
 
 export const DEFAULT_IMAGES = [
   {
-    id: '2',
-    thumbnail: thumb05,
-    caption: 'Andyshop',
-    description: 'An ecommerce website',
-    url: 'http://shop.andybirosak.com/',
-  },
-  {
     id: '1',
     thumbnail: thumb01,
     caption: 'Birdie Lou',
     description: "A childrens' vintage & handmade clothing website.",
     url: 'https://birdie-lou.com',
+  },
+  {
+    id: '2',
+    thumbnail: thumb05,
+    caption: 'Andyshop',
+    description: 'An ecommerce website',
+    url: 'http://shop.andybirosak.com/',
   },
   {
     id: '3',
