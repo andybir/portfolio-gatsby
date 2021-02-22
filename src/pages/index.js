@@ -63,6 +63,48 @@ const HomeIndex = () => {
           </ul> */}
         </section>
 
+        <section id="two">
+          <h2>Music</h2>
+          <p>
+            <iframe
+              width="100%"
+              height="300"
+              scrolling="no"
+              frameborder="no"
+              allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/986909095&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            ></iframe>
+            <div>
+              <a
+                href="https://soundcloud.com/user-138151681/black-purple"
+                title="Black &amp; Purple"
+                target="_blank"
+              >
+                Black &amp; Purple
+              </a>
+            </div>
+          </p>
+          <p>
+            <iframe
+              width="100%"
+              height="300"
+              scrolling="no"
+              frameborder="no"
+              allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/983943604&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+            ></iframe>
+            <div>
+              <a
+                href="https://soundcloud.com/user-138151681/oh-happy-day-1"
+                title="Oh Happy Day"
+                target="_blank"
+              >
+                Oh Happy Day
+              </a>
+            </div>
+          </p>
+        </section>
+
         <section id="three">
           <h2>Get In Touch</h2>
           <p>

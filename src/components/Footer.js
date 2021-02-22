@@ -31,7 +31,17 @@ const Footer = () => (
             rel="noopener noreferrer"
             target="_blank"
           >
-            <span className="label">Dribbble</span>
+            <span className="label">Linkedin</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://soundcloud.com/user-138151681"
+            className="icon fa-soundcloud"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <span className="label">Soundcloud</span>
           </a>
         </li>
         <li>
